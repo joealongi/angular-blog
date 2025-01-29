@@ -1,0 +1,89 @@
+{
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  "name": "angular-blog",
+  "short_name": "angular-blog",
+=======
+  "name": "Availing Inc.",
+  "short_name": "Availing",
+>>>>>>> 8133824 (Add Nuxt)
+=======
+  "name": "heyitsjoealongi",
+  "short_name": "heyitsjoealongi",
+>>>>>>> b6008b2 (Tune to heyitsjoealongi)
+=======
+  "name": "heyitsjoealongi",
+  "short_name": "heyitsjoealongi",
+>>>>>>> 962f483 (Add SEO (#4))
+=======
+  "name": "angular-blog",
+  "short_name": "angular-blog",
+>>>>>>> 87cfa58 (Convert to Angular Blog)
+=======
+  "name": "Availing Inc.",
+  "short_name": "Availing",
+>>>>>>> 8133824 (Add Nuxt)
+=======
+  "name": "heyitsjoealongi",
+  "short_name": "heyitsjoealongi",
+>>>>>>> b6008b2 (Tune to heyitsjoealongi)
+=======
+  "name": "heyitsjoealongi",
+  "short_name": "heyitsjoealongi",
+>>>>>>> 962f483 (Add SEO (#4))
+=======
+  "name": "angular-blog",
+  "short_name": "angular-blog",
+>>>>>>> 87cfa58 (Convert to Angular Blog)
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  "theme_color": "#305cde",
+  "background_color": "#0c090d",
+=======
+  "theme_color": "#0C0A09",
+  "background_color": "#FAFAF9",
+>>>>>>> 8133824 (Add Nuxt)
+=======
+  "theme_color": "#305cde",
+  "background_color": "#0c090d",
+>>>>>>> b6008b2 (Tune to heyitsjoealongi)
+=======
+  "theme_color": "#305cde",
+  "background_color": "#0c090d",
+>>>>>>> 962f483 (Add SEO (#4))
+=======
+  "theme_color": "#0C0A09",
+  "background_color": "#FAFAF9",
+>>>>>>> 8133824 (Add Nuxt)
+=======
+  "theme_color": "#305cde",
+  "background_color": "#0c090d",
+>>>>>>> b6008b2 (Tune to heyitsjoealongi)
+=======
+  "theme_color": "#305cde",
+  "background_color": "#0c090d",
+>>>>>>> 962f483 (Add SEO (#4))
+  "display": "standalone"
+}

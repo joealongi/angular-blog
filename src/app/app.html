@@ -1,0 +1,104 @@
+<main>
+  <div class="p-0 sm:p-0 md:p-0 lg:p-0 xl:p-0">
+    <div
+      class="angular-blog-theme-container z-0 flex flex-col flex-auto justify-center items-center h-full w-auto md:min-w-3xl md:max-w-3xl my-[3vh] mx-auto"
+    >
+      <div
+        class="angular-blog-theme-column flex flex-col flex-auto justify-self-start h-auto m-3 p-3"
+      >
+        <nav class="angular-blog-theme-navbar relative my-[3vh]">
+          <ul
+            class="flex flex-row justify-items-center content-center items-center space-x-3 mx-auto"
+          >
+            <li class="justify-self-start mr-auto">
+              <a class="transition-all" rel="noopener noreferrer" target="_self" href="/">
+                <svg
+                  class="angular-blog-theme-logo h-9 w-9 max-h-9 max-w-9 md:h-18 md:w-18 md:max-h-18 md:max-w-18 my-3"
+                  width="2000"
+                  height="2000"
+                  viewBox="0 0 2000 2000"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="2000" height="2000" fill="#2563EB" />
+                </svg>
+              </a>
+            </li>
+            <li class="justify-self-start mr-3">
+              <a
+                class="p-3 text-xl text-blue-600 hover:text-blue-300 text-center subpixel-antialiased transition-all cursor-pointer"
+                rel="noopener noreferrer"
+                target="_self"
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+            <li class="justify-self-start">
+              <a
+                class="p-3 text-xl text-blue-600 hover:text-blue-300 text-center subpixel-antialiased transition-all cursor-pointer"
+                rel="noopener noreferrer"
+                target="_self"
+                href="/blog"
+              >
+                Blog
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <router-outlet />
+        <footer>
+          <ul
+            class="angular-blog-theme-social flex flex-col md:flex-row flex-auto my-3 font-medium text-blue-600 text-left subpixel-antialiased"
+          >
+            <li class="flex items-center">
+              <a
+                class="mb-3 md:mb-0 md:mr-6 hover:text-blue-300 transition-all"
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://x.com/"
+              >
+                x
+              </a>
+            </li>
+            <li class="flex items-center">
+              <a
+                class="mb-3 md:mb-0 md:mr-6 hover:text-blue-300 transition-all"
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://github.com/"
+              >
+                github
+              </a>
+            </li>
+            <li class="flex items-center">
+              <a
+                class="mb-3 md:mb-0 md:mr-6 hover:text-blue-300 transition-all"
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://www.instagram.com/"
+              >
+                instagram
+              </a>
+            </li>
+            <li class="flex items-center">
+              <a
+                class="mb-3 md:mb-0 md:mr-6 hover:text-blue-300 transition-all"
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://www.linkedin.com/"
+              >
+                linkedin
+              </a>
+            </li>
+          </ul>
+        </footer>
+        <p
+          class="angular-blog-theme-copyright flex flex-col md:flex-row flex-auto my-[3vh] text-xs font-light text-neutral-300 hover:text-neutral-100 text-left uppercase subpixel-antialiased transition-all"
+        >
+          © {{ year }} Angular Blog. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </div>
+</main>

@@ -1,0 +1,11 @@
+User-agent: *
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: GPTBot
+User-agent: Claude-Web
+User-agent: CCBot
+User-agent: Google-Extended
+User-agent: facebookexternalhit
+User-agent: Twitterbot
+Allow: /
+Disallow:

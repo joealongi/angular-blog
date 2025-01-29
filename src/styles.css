@@ -1,0 +1,158 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss';
+
+body,
+html {
+  color: #2563eb;
+  background-color: #0a0a0a;
+  font-family: 'Roboto', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+h1,
+h2 {
+  font-family: 'Roboto Serif', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+::selection {
+  background: #2563eb;
+}
+
+/* blog */
+.blog img {
+  width: 100vw;
+}
+.blog h1 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #2563eb;
+  text-align: left;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+
+  @media (min-width: 768px) {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+.blog h2 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  color: #fafafa;
+  text-align: left;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+
+  @media (min-width: 1024px) {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+.blog h3,
+.blog h4,
+.blog h5,
+.blog h6 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-family: 'Roboto', serif;
+  font-size: 1.875rem;
+  font-weight: 300;
+  line-height: 2.25rem;
+  color: #2563eb;
+  text-align: left;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+
+  @media (min-width: 1024px) {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+.blog h2 > a {
+  color: #93c5fd;
+}
+.blog p > strong {
+  font-weight: 400;
+}
+.blog p,
+.blog li {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-family: 'Roboto', serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.75rem;
+  color: #fafafa;
+  text-align: left;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+
+  @media (min-width: 768px) {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  @media (min-width: 1024px) {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+}
+.blog a {
+  color: #2563eb;
+}
+.blog a:hover {
+  color: #93c5fd;
+}
+.blog ul,
+.blog ol {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1.5rem;
+}
+.blog ul {
+  list-style: disc;
+}
+.blog ol {
+  list-style-type: decimal;
+}
+.blog li {
+  font-family: 'Roboto', serif;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.5rem;
+  color: #fafafa;
+  text-align: left;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+
+  @media (min-width: 768px) {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+.blog code {
+  height: auto;
+  width: 100%;
+  display: inline-block;
+  padding: 1rem;
+  color: #93c5fd;
+  background-color: #171717;
+  white-space: pre;
+
+  @media (min-width: 768px) {
+    padding: 1.9rem;
+  }
+}
