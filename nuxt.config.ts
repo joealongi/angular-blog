@@ -3,6 +3,15 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-05-15",
   devtools: { enabled: true },
 
+  nitro: {
+    preset: "cloudflare-pages",
+
+    cloudflare: {
+      deployConfig: true,
+      nodeCompat: true,
+    },
+  },
+
   modules: [
     "@nuxt/eslint",
     "@nuxt/fonts",
@@ -27,6 +36,7 @@ export default defineNuxtConfig({
     "nuxt-gtag",
     "nuxt-clarity-analytics",
     "nuxt-svgo",
+    "nitro-cloudflare-dev",
   ],
   css: ["~/assets/css/main.css"],
   gtag: {
