@@ -98,7 +98,7 @@
           </ul>
         </footer>
         <p
-          className="heyitsjoealongi-theme-copyright my-3 text-xs subpixel-antialiased font-light text-left"
+          className="heyitsjoealongi-theme-copyright my-3 text-xs subpixel-antialiased font-light text-left uppercase"
         >
           © {{ year }} heyitsjoealongi. All rights reserved.
         </p>
