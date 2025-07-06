@@ -1,5 +1,5 @@
 <template>
-  <UContainer>
+  <UContainer class="p-0 sm:p-0 md:p-0 lg:p-0 xl:p-0">
     <div
       class="heyitsjoealongi-theme-container flex flex-col flex-auto justify-center items-center h-full w-auto max-w-3xl mt-[3vh] lg:mt-[9vh] mx-3 md:mx-9 xl:mx-auto"
     >
@@ -31,7 +31,7 @@
           with modern code and intelligent systems—ready for today, built for
           tomorrow.
         </p>
-        <footer>
+        <section>
           <ul
             class="heyitsjoealongi-theme-footer flex flex-col md:flex-row flex-auto my-3"
           >
@@ -96,12 +96,16 @@
               </a>
             </li>
           </ul>
-        </footer>
-        <p
-          className="heyitsjoealongi-theme-copyright my-3 text-xs subpixel-antialiased font-light text-left uppercase"
+        </section>
+        <footer
+          class="flex flex-col md:flex-row flex-auto my-3 text-base antialiased font-black text-left"
         >
-          © {{ year }} heyitsjoealongi. All rights reserved.
-        </p>
+          <p
+            className="heyitsjoealongi-theme-copyright my-3 text-xs subpixel-antialiased font-light text-left uppercase"
+          >
+            © {{ year }} heyitsjoealongi. All rights reserved.
+          </p>
+        </footer>
       </div>
     </div>
   </UContainer>
