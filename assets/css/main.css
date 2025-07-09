@@ -3,44 +3,18 @@
 
 body,
 html {
-  color: #305cde;
-  background-color: #0c090d;
+  color: #2563eb;
+  background-color: #0c0a09;
+  font-family: "Roboto", serif;
 }
-
-li:last-child > a > p {
-  margin-bottom: 0;
-}
-
-::selection {
-  background: #305cde;
-}
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: #dad2d8;
   font-family: "Roboto Serif", serif;
 }
-
-p {
-  font-family: "Roboto", serif;
-}
-
-.heyitsjoealongi-theme-copyright {
-  font-family: "Roboto Serif", serif;
-}
-
-a,
-a > p,
-a > svg {
-  color: #dad2d8;
-  font-family: "Roboto", serif;
-}
-
-a:hover,
-a > p:hover {
-  color: #305cde;
+::selection {
+  background: #2563eb;
 }
