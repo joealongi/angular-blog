@@ -10,6 +10,13 @@ const { data: page } = await useAsyncData(route.path, () => {
   return queryCollection("content").path(route.path).first();
 });
 
+if (!page.value) {
+  throw createError({
+    statusCode: 404,
+    statusMessage: "Page Not Found",
+  });
+}
+
 if (document) {
   const img = document?.querySelectorAll("img");
   if (img?.length > 0) {
@@ -72,12 +79,12 @@ if (document) {
       );
     });
   }
-  // const a = document?.querySelectorAll("a");
-  // if (a?.length > 0) {
-  //   a?.forEach((element) => {
-  //     element?.classList?.add("text-blue-600", "hover:text-neutral-300");
-  //   });
-  // }
+  const a = document?.querySelectorAll("a");
+  if (a?.length > 0) {
+    a?.forEach((element) => {
+      element?.classList?.add("text-blue-600", "hover:text-neutral-300");
+    });
+  }
 }
 </script>
 
