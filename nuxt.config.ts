@@ -26,8 +26,8 @@ export default defineNuxtConfig({
     "@nuxt/ui",
     "@nuxtjs/seo",
     "@nuxtjs/robots",
-    "nuxt-schema-org",
     "@nuxtjs/google-fonts",
+    "@nuxt/content",
     [
       "@nuxtjs/google-fonts",
       {
@@ -37,6 +37,7 @@ export default defineNuxtConfig({
         },
       },
     ],
+    "nuxt-schema-org",
     "nuxt-gtag",
     "nuxt-clarity-analytics",
     "nuxt-svgo",

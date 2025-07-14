@@ -12,6 +12,7 @@
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
+    "@nuxt/content": "^3.6.3",
     "@nuxt/eslint": "^1.4.1",
     "@nuxt/fonts": "^0.11.4",
     "@nuxt/icon": "^1.13.0",
@@ -24,6 +25,8 @@
     "@nuxtjs/robots": "^5.2.10",
     "@nuxtjs/seo": "^3.0.3",
     "@unhead/vue": "^2.0.10",
+    "add": "^2.0.6",
+    "better-sqlite3": "^12.2.0",
     "nuxt": "^3.17.5",
     "nuxt-clarity-analytics": "^0.0.9",
     "nuxt-gtag": "^3.0.3",
