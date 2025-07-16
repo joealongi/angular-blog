@@ -77,6 +77,11 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 # Cloudflare Pages
 
 ```bash
+# packages
+npm install -g npm-check-updates
+npx npm-check-updates -u
+npm install
+
 # build
 npx nuxi build --preset=cloudflare_pages
 
