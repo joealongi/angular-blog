@@ -81,5 +81,6 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 npx nuxi build --preset=cloudflare_pages
 
 # deploy
-npx wrangler pages deploy dist/
+<!-- npx wrangler pages deploy dist/ -->
+npx wrangler --cwd dist/ pages deploy
 ```
