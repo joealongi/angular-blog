@@ -1,5 +1,3 @@
-![Alt text](http://localhost:3000/heyitsjoealongi-Banner.png "a title")
-
 # Computing and secure work habits for software development
 
 ## As all things go and often do not last, last years tools of the trade

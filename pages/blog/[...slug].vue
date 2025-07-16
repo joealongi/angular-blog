@@ -1,6 +1,6 @@
 <template>
   <UContainer class="p-0 sm:p-0 md:p-0 lg:p-0 xl:p-0">
-    <ContentRenderer v-if="page" :value="page" class="mb-9" />
+    <ContentRenderer v-if="page" :value="page" class="mb-9 blog" />
   </UContainer>
 </template>
 
@@ -16,86 +16,10 @@ if (!page.value) {
     statusMessage: "Page Not Found",
   });
 }
-
-if (document) {
-  // const img = document?.querySelectorAll("img");
-  // if (img?.length > 0) {
-  //   img?.forEach((element) => {
-  //     element?.classList?.add("heyitsjoealongi-theme-image", "w-screen");
-  //   });
-  // }
-  // const h1 = document?.querySelectorAll("h1");
-  // if (h1?.length > 0) {
-  //   h1?.forEach((element) => {
-  //     element?.classList?.add(
-  //       "heyitsjoealongi-theme-heading-one",
-  //       "my-9",
-  //       "text-3xl",
-  //       "md:text-6xl",
-  //       "font-bold",
-  //       "subpixel-antialiased",
-  //       "text-blue-600"
-  //     );
-  //   });
-  // }
-  // const h2 = document?.querySelectorAll("h2");
-  // if (h2?.length > 0) {
-  //   h2?.forEach((element) => {
-  //     element?.classList?.add(
-  //       "heyitsjoealongi-theme-heading-two",
-  //       "my-9",
-  //       "text-xl",
-  //       "md:text-3xl",
-  //       "text-base",
-  //       "subpixel-antialiased",
-  //       "text-neutral-100"
-  //     );
-  //   });
-  // }
-  // const h3 = document?.querySelectorAll("h3");
-  // if (h3?.length > 0) {
-  //   h3?.forEach((element) => {
-  //     element?.classList?.add(
-  //       "heyitsjoealongi-theme-heading-three",
-  //       "my-9",
-  //       "text-xl",
-  //       "md:text-3xl",
-  //       "font-thin",
-  //       "subpixel-antialiased",
-  //       "text-blue-600"
-  //     );
-  //   });
-  // }
-  // const p = document?.querySelectorAll("p");
-  // if (p?.length > 0) {
-  //   p?.forEach((element) => {
-  //     element?.classList?.add(
-  //       "heyitsjoealongi-theme-paragraph",
-  //       "my-3",
-  //       "font-thin",
-  //       "font-thin",
-  //       "subpixel-antialiased",
-  //       "text-neutral-100"
-  //     );
-  //   });
-  // }
-  // const a = document?.querySelectorAll("a");
-  // if (a?.length > 0) {
-  //   a?.forEach((element) => {
-  //     element?.classList?.add("text-blue-600", "hover:text-neutral-300");
-  //   });
-  // }
-  const code = document?.querySelectorAll("code");
-  if (code?.length > 0) {
-    code?.forEach((element) => {
-      element?.classList?.add("text-blue-300");
-    });
-  }
-}
 </script>
 
 <style>
-h1 {
+.blog h1 {
   margin-top: 2.25rem;
   margin-bottom: 2.25rem;
   font-size: 1.875rem;
@@ -110,7 +34,7 @@ h1 {
     line-height: 1;
   }
 }
-h2 {
+.blog h2 {
   margin-top: 2.25rem;
   margin-bottom: 2.25rem;
   font-size: 1rem;
@@ -126,7 +50,10 @@ h2 {
     line-height: 2.25rem;
   }
 }
-h3 {
+.blog h3,
+h4,
+h5,
+h6 {
   margin-top: 2.25rem;
   margin-bottom: 2.25rem;
   font-size: 1.25rem;
@@ -141,24 +68,33 @@ h3 {
     line-height: 2.25rem;
   }
 }
-p {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
+.blog p,
+.blog li {
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
+  font-size: 1rem;
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
   font-weight: 100;
-  color: #ffffff;
-}
-a {
-  color: #2563eb;
-  :hover {
-    color: #93c5fd;
+  color: #d4d4d4;
+
+  @media (min-width: 768px) {
+    font-size: 1.3rem;
   }
 }
-code {
+.blog h2 > a {
   color: #93c5fd;
 }
-img {
+.blog a {
+  color: #2563eb;
+}
+.blog a:hover {
+  color: #93c5fd;
+}
+.blog code {
+  color: #93c5fd;
+}
+.blog img {
   width: 100vw;
 }
 </style>

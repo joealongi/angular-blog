@@ -1,5 +1,3 @@
-![Alt text](http://localhost:3000/heyitsjoealongi-Banner.png "a title")
-
 # Stateful React JavaScript form fields through Redux data persistence and management
 
 ## Modular forms in React (TypeScript) with Formik and Redux (Toolkit)
