@@ -18,6 +18,11 @@ if (!page.value) {
     statusMessage: "Page Not Found",
   });
 }
+
+definePageMeta({
+  // set custom layout
+  layout: "blog",
+});
 </script>
 
 <style></style>
