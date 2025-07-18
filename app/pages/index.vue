@@ -19,7 +19,7 @@
     <h2
       class="heyitsjoealongi-theme-heading-two my-9 text-base md:text-2xl font-bold subpixel-antialiased text-blue-600"
     >
-      Application development, cybersecurity, and chaos engineering
+      Articles on application development, cybersecurity, and chaos engineering
     </h2>
     <ul
       class="heyitsjoealongi-theme-card flex flex-col flex-auto my-3 md:my-9 text-neutral-300 text-base subpixel-antialiased cursor-pointer"
