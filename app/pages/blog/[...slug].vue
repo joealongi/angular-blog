@@ -19,9 +19,35 @@ if (!page.value) {
   });
 }
 
+// Nuxt Page Meta
 definePageMeta({
   // set custom layout
   layout: "blog",
+});
+
+// Nuxt SEO
+useSeoMeta({
+  titleTemplate: "%s",
+  title: page?.title ? page?.title : "heyitsjoealongi",
+  ogTitle: page?.title ? page?.title : "heyitsjoealongi",
+  siteName: "heyitsjoealongi",
+  ogSiteName: "heyitsjoealongi",
+  description: page?.body?.value?.[3]?.[3]
+    ? page?.body?.value?.[3]?.[3]
+    : "Advising on resilience, engineering security, and shaping what’s next.",
+  ogDescription: page?.body?.value?.[3]?.[3]
+    ? page?.body?.value?.[3]?.[3]
+    : "Advising on resilience, engineering security, and shaping what’s next.",
+  url: page?.path
+    ? `https://heyitsjoealongi.com${page?.path}`
+    : "https://heyitsjoealongi.com/",
+  ogUrl: page?.path
+    ? `https://heyitsjoealongi.com${page?.path}`
+    : "https://heyitsjoealongi.com/",
+  type: "website",
+  ogType: "website",
+  robots: "",
+  ogImage: "https://heyitsjoealongi.com/heyitsjoealongi-banner.png",
 });
 </script>
 

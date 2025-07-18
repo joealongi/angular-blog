@@ -30,7 +30,7 @@
         >
           <ul className="flex flex-row justify-center items-center self-center">
             <li className="flex flex-col flex-auto justify-self-start">
-              <a rel="noopener noreferrer" target="_self" to="/">
+              <a rel="noopener noreferrer" target="_self" href="/">
                 <Back
                   class="heyitsjoealongi-theme-logo h-9 w-9 max-h-9 max-w-9 md:h-18 md:w-18 md:max-h-18 md:max-w-18 my-3"
                   :font-controlled="false"

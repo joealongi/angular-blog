@@ -26,17 +26,7 @@ export default defineNuxtConfig({
     "@nuxt/ui",
     "@nuxtjs/seo",
     "@nuxtjs/robots",
-    "@nuxtjs/google-fonts",
     "@nuxt/content",
-    [
-      "@nuxtjs/google-fonts",
-      {
-        families: {
-          Roboto: true,
-          "Roboto Slab": true,
-        },
-      },
-    ],
     "nuxt-schema-org",
     "nuxt-gtag",
     "nuxt-clarity-analytics",

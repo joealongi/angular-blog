@@ -16,25 +16,23 @@ Commonly you will see components split out into separate files, like the below c
 
 ```javascript
 // Super Class - Glass.jsx
-
 import Water from "./Water.jsx";
 
 export default function Glass() {
-return (
-<Water full={1}/>
-);
+  return (
+  	<Water full={1}/>
+  );
 }
 
 --- Different Files ---
 
 // Sub Class - Water.jsx
-
 export function Water({full}) {
-return (
-<div>
-{ full > 0.5 ? "full" : "empty"; }
-</div>
-);
+  return (
+    <div>
+    	{ full > 0.5 ? "full" : "empty"; }
+    </div>
+  );
 }
 ```
 
@@ -42,25 +40,23 @@ A [ref, reference, or useRef hook](https://react.dev/reference/react/useRef) p
 
 ```javascript
 // Class - Form.jsx
-
 import { useRef } from 'react';
 
 function Form() {
-const formRef = useRef(null)
+  const formRef = useRef(null)
 
-function handleSubmit() {
-const data = formRef.current;
-console.log('Name: ', data.name.value);
-}
+  function handleSubmit() {
+    const data = formRef.current;
+    console.log('Name: ', data.name.value);
+  }
 
-return (
-
-<form ref={formRef}>
-<label for="fname">Name:</label>
-<input type="text" id="name" name="name" onChange={handleChange}>
-<button type="submit" onSubmit={handleSubmit}>Submit</button>
-</form>
-);
+  return (
+    <form ref={formRef}>
+      <label for="fname">Name:</label>
+        <input type="text" id="name" name="name" onChange={handleChange}>
+      <button type="submit" onSubmit={handleSubmit}>Submit</button>
+    </form>
+  );
 }
 ```
 
@@ -90,41 +86,39 @@ import { decrementHome, incrementHome } from "./homeSlice";
 import { decrementAway, incrementAway } from "./awaySlice";
 
 export function Scoreboard() {
-const home = useSelector((state: RootState) => state.home.value);
-const away = useSelector((state: RootState) => state.away.value);
-const dispatch = useDispatch();
+  const home = useSelector((state: RootState) => state.home.value);
+  const away = useSelector((state: RootState) => state.away.value);
+  const dispatch = useDispatch();
 
-return (
-
-<div>
-<div>
-<p>Scoreboard</p>
-<span>Home: {home}</span>
-<span>Away: {away}</span>
-<div>
-<button
-aria-label="Increment home"
-onClick={() => dispatch(incrementHome())} >
-Increment Home
-</button>
-<button
-aria-label="Decrement away"
-onClick={() => dispatch(decrementHome())} >
-Decrement Home
-</button>
-<button
-aria-label="Decrement away"
-onClick={() => dispatch(incrementAway())} >
-Increment Away
-</button>
-<button
-aria-label="Decrement away"
-onClick={() => dispatch(decrementAway())} >
-Decrement Away
-</button>
-</div>
-</div>
-);
+  return (
+    <div>
+        <p>Scoreboard</p>
+        <span>Home: {home}</span>
+        <span>Away: {away}</span>
+        <div>
+          <button
+          aria-label="Increment home"
+          onClick={() => dispatch(incrementHome())} >
+          Increment Home
+          </button>
+          <button
+          aria-label="Decrement away"
+          onClick={() => dispatch(decrementHome())} >
+          Decrement Home
+          </button>
+          <button
+          aria-label="Decrement away"
+          onClick={() => dispatch(incrementAway())} >
+          Increment Away
+          </button>
+          <button
+          aria-label="Decrement away"
+          onClick={() => dispatch(decrementAway())} >
+          Decrement Away
+          </button>
+        </div>
+    </div>
+  );
 }
 ```
 
@@ -139,46 +133,45 @@ The whole problem statement we are really looking at here is that there isn't qu
 In the GitHub Gist below, you will see as an example of a login form and a submit form, as the sub classes, and a page called logon as the super class. These breadcrumbs provide the modularity to enable multiple pages to draw from a similar schema and invoke different combinations of outcomes, reusing effective logic across them.
 
 ```javascript
-import \* as React from "react";
+import * as React from "react";
 import { useFormik } from "formik";
 import { useDispatch } from "react-redux";
 import Branding from "../branding/Branding";
 import { logon } from "../../redux/slices/formSlice";
 
 export default function LogonForm() {
-const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
-const formik = useFormik({
-initialValues: {
-email: "",
-password: "",
-},
-onSubmit: () => {},
-});
+  const formik = useFormik({
+    initialValues: {
+      email: "",
+      password: "",
+    },
+    onSubmit: () => {},
+  });
 
-React.useEffect(() => {
-dispatch(logon(formik?.values));
-}, [dispatch, formik?.values]);
+  React.useEffect(() => {
+    dispatch(logon(formik?.values));
+  }, [dispatch, formik?.values]);
 
-return (
-<React.Fragment>
-
-<section className="block h-auto w-auto">
-<form
+  return (
+    <React.Fragment>
+      <section className="block h-auto w-auto">
+        <form
           onSubmit={formik.handleSubmit}
           className="flex flex-col flex-nowrap justify-center"
         >
-<Branding />
-<h3 className="block my-3 font-slab text-3xl font-medium subpixel-antialiased text-light">
-Logon
-</h3>
-<label
+          <Branding />
+          <h3 className="block my-3 font-slab text-3xl font-medium subpixel-antialiased text-light">
+            Logon
+          </h3>
+          <label
             htmlFor="email"
             className="block my-3 font-roboto text-lg font-normal subpixel-antialiased text-bright"
           >
-Email Address
-</label>
-<input
+            Email Address
+          </label>
+          <input
             id="email"
             name="email"
             type="email"
@@ -186,13 +179,13 @@ Email Address
             value={formik?.values?.email}
             className="block p-3 font-roboto font-normal subpixel-antialiased text-bright border border-light rounded bg-transparent"
           />
-<label
+          <label
             htmlFor="password"
             className="block my-3 font-roboto text-lg font-normal subpixel-antialiased text-bright"
           >
-Password
-</label>
-<input
+            Password
+          </label>
+          <input
             id="password"
             name="password"
             type="password"
@@ -200,10 +193,10 @@ Password
             value={formik?.values?.password}
             className="block p-3 font-roboto font-normal subpixel-antialiased text-bright border border-light rounded bg-transparent"
           />
-</form>
-</section>
-</React.Fragment>
-);
+        </form>
+      </section>
+    </React.Fragment>
+  );
 }
 ```
 
@@ -218,37 +211,34 @@ import { useSelector } from "react-redux";
 import type { RootState } from "../../redux/store";
 
 export default function SubmitForm({ handleSubmit }: any) {
-const form = useSelector((state: RootState) => state.form.value);
+  const form = useSelector((state: RootState) => state.form.value);
 
-const handleSubmitForm = async (form: any) => {
-return await handleSubmit(form);
-};
+  const handleSubmitForm = async (form: any) => {
+      return await handleSubmit(form);
+  };
 
-const formik = useFormik({
-initialValues: {},
-onSubmit: () => {
-return handleSubmitForm(form);
-},
-});
+  const formik = useFormik({initialValues: {},onSubmit: () => {
+      return handleSubmitForm(form);
+    },
+  });
 
-return (
-<React.Fragment>
-
-<section className="block h-auto w-auto">
-<form
+  return (
+    <React.Fragment>
+      <section className="block h-auto w-auto">
+        <form
           onSubmit={formik.handleSubmit}
           className="flex flex-col flex-nowrap justify-center mt-9"
         >
-<button
+          <button
             type="submit"
             className="block w-full p-3 mx-auto font-slab uppercase text-xl min-[2000px]:text-2xl font-bold subpixel-antialiased text-darkoff border border-light rounded bg-light hover:text-light hover:bg-darkoff hover:border-light active:text-light active:bg-darkoff active:border-light"
           >
-Submit
-</button>
-</form>
-</section>
-</React.Fragment>
-);
+          Submit
+          </button>
+        </form>
+      </section>
+    </React.Fragment>
+  );
 }
 ```
 
@@ -264,33 +254,28 @@ import SubmitForm from "../components/forms/Submit";
 import { supabase } from "../supabase/supabase";
 
 export default function LogonPage() {
-const navigate = useNavigate();
+  const navigate = useNavigate();
 
-const handleSubmit = async (form: any) => {
-try {
-const logon = await supabase.auth.signInWithPassword({
-email: form?.logon?.email,
-password: form?.logon?.password,
-});
-
+  const handleSubmit = async (form: any) => {
+    try {
+      const logon = await supabase.auth.signInWithPassword({
+        email: form?.logon?.email,
+        password: form?.logon?.password,
+      });
       if (logon?.data?.session?.access_token !== null) {
         navigate("/account");
       }
     } catch (error: any) {
-      console.log(
-        "Logon error (caught)",
-        error?.error_description || error?.message
-      );
+      console.log("Logon error (caught)", error?.error_description || error?.message);
     }
+  };
 
-};
-
-return (
-<React.Fragment>
-<LogonForm />
-<SubmitForm handleSubmit={handleSubmit} />
-</React.Fragment>
-);
+  return (
+    <React.Fragment>
+      <LogonForm />
+      <SubmitForm handleSubmit={handleSubmit} />
+    </React.Fragment>
+  );
 }
 ```
 

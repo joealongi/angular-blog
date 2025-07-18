@@ -37,6 +37,6 @@ useSeoMeta({
   type: "website",
   ogType: "website",
   robots: "",
-  ogImage: "https://heyitsjoealongi.com/heyitsjoealongi-Banner.png",
+  ogImage: "https://heyitsjoealongi.com/heyitsjoealongi-banner.png",
 });
 </script>
