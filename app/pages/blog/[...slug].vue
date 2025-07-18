@@ -25,27 +25,25 @@ definePageMeta({
   layout: "blog",
 });
 
+// Create SEO Meta Values
+const title = page?.value?.title ? page?.value?.title : "heyitsjoealongi";
+const description = page?.value?.body?.value?.[3]?.[3]
+  ? page?.value?.body?.value?.[3]?.[3]
+  : "Advising on resilience, engineering security, and shaping what’s next.";
+const url = page?.value?.path
+  ? `https://heyitsjoealongi.com${page?.value?.path}`
+  : "https://heyitsjoealongi.com/";
+
 // Nuxt SEO
 useSeoMeta({
   titleTemplate: "%s",
-  title: page?.title ? page?.title : "heyitsjoealongi",
-  ogTitle: page?.title ? page?.title : "heyitsjoealongi",
-  siteName: "heyitsjoealongi",
+  title: "heyitsjoealongi - " + title?.toString(),
+  ogTitle: title?.toString(),
   ogSiteName: "heyitsjoealongi",
-  description: page?.body?.value?.[3]?.[3]
-    ? page?.body?.value?.[3]?.[3]
-    : "Advising on resilience, engineering security, and shaping what’s next.",
-  ogDescription: page?.body?.value?.[3]?.[3]
-    ? page?.body?.value?.[3]?.[3]
-    : "Advising on resilience, engineering security, and shaping what’s next.",
-  url: page?.path
-    ? `https://heyitsjoealongi.com${page?.path}`
-    : "https://heyitsjoealongi.com/",
-  ogUrl: page?.path
-    ? `https://heyitsjoealongi.com${page?.path}`
-    : "https://heyitsjoealongi.com/",
-  type: "website",
-  ogType: "website",
+  description: description?.toString(),
+  ogDescription: description?.toString(),
+  ogUrl: url?.toString(),
+  ogType: "article",
   robots: "",
   ogImage: "https://heyitsjoealongi.com/heyitsjoealongi-banner.png",
 });

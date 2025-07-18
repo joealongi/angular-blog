@@ -19,14 +19,14 @@
     <h2
       class="heyitsjoealongi-theme-heading-two my-9 text-base md:text-2xl font-bold subpixel-antialiased text-blue-600"
     >
-      Articles on application development, cybersecurity, and chaos engineering
+      Articles on application development, cybersecurity, information security, and chaos engineering
     </h2>
     <ul
       class="heyitsjoealongi-theme-card flex flex-col flex-auto my-3 md:my-9 text-neutral-300 text-base subpixel-antialiased cursor-pointer"
     >
       <li class="flex items-center">
         <a
-          class="h-auto w-full mb-3 p-3 text-neutral-300 hover:text-neutral-950 bg-transparent hover:bg-neutral-300 border-b-1 border-neutral-300 hover:border-neutral-300 transition-all"
+          class="h-auto w-full mb-3 p-3 text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
           rel="noopener noreferrer"
           target="_self"
           href="/blog/compendium-of-bitwise-nomenclature-from-applications-to-cybersecurity"
@@ -36,7 +36,7 @@
       </li>
       <li class="flex items-center">
         <a
-          class="h-auto w-full mb-3 p-3 text-neutral-300 hover:text-neutral-950 bg-transparent hover:bg-neutral-300 border-b-1 border-neutral-300 hover:border-neutral-300 transition-all"
+          class="h-auto w-full mb-3 p-3 text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all""
           rel="noopener noreferrer"
           target="_self"
           href="/blog/computing-and-secure-work-habits-for-software-development"
@@ -46,7 +46,7 @@
       </li>
       <li class="flex items-center">
         <a
-          class="h-auto w-full mb-3 p-3 text-neutral-300 hover:text-neutral-950 bg-transparent hover:bg-neutral-300 border-b-1 border-neutral-300 hover:border-neutral-300 transition-all"
+          class="h-auto w-full mb-3 p-3 text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all""
           rel="noopener noreferrer"
           target="_self"
           href="/blog/stateful-react-javascript-form-fields-through-redux-data-persistence-and-management"
@@ -57,7 +57,7 @@
       </li>
       <li class="flex items-center">
         <a
-          class="h-auto w-full mb-3 p-3 text-neutral-300 hover:text-neutral-950 bg-transparent hover:bg-neutral-300 border-b-1 border-neutral-300 hover:border-neutral-300 transition-all"
+          class="h-auto w-full mb-3 p-3 text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all""
           rel="noopener noreferrer"
           target="_self"
           href="/blog/coding-habits-and-mac-local-environments-for-software-development"
@@ -67,7 +67,7 @@
       </li>
       <li class="flex items-center">
         <a
-          class="h-auto w-full mb-3 p-3 text-neutral-300 hover:text-neutral-950 bg-transparent hover:bg-neutral-300 border-b-1 border-neutral-300 hover:border-neutral-300 transition-all"
+          class="h-auto w-full mb-3 p-3 text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all""
           rel="noopener noreferrer"
           target="_self"
           href="/blog/layered-cybersecurity-approaches-for-financial-technology-fintech"
@@ -77,7 +77,7 @@
       </li>
       <li class="flex items-center">
         <a
-          class="h-auto w-full mb-3 p-3 text-neutral-300 hover:text-neutral-950 bg-transparent hover:bg-neutral-300 border-b-1 border-neutral-300 hover:border-neutral-300 transition-all"
+          class="h-auto w-full mb-3 p-3 text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all""
           rel="noopener noreferrer"
           target="_self"
           href="/blog/threat-detection-approaches-for-financial-technology-fintech"
@@ -87,7 +87,7 @@
       </li>
       <li class="flex items-center">
         <a
-          class="h-auto w-full mb-3 p-3 text-neutral-300 hover:text-neutral-950 bg-transparent hover:bg-neutral-300 border-b-1 border-neutral-300 hover:border-neutral-300 transition-all"
+          class="h-auto w-full mb-3 p-3 text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all""
           rel="noopener noreferrer"
           target="_self"
           href="/blog/secure-software-development-and-threat-modeling-approaches-for-financial-technology-fintech"
@@ -98,7 +98,7 @@
       </li>
       <li class="flex items-center">
         <a
-          class="h-auto w-full mb-3 p-3 text-neutral-300 hover:text-neutral-950 bg-transparent hover:bg-neutral-300 border-b-1 border-neutral-300 hover:border-neutral-300 transition-all"
+          class="h-auto w-full mb-3 p-3 text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all""
           rel="noopener noreferrer"
           target="_self"
           href="/blog/global-information-security-and-infrastructure-approaches-for-financial-technology-fintech"
@@ -111,6 +111,22 @@
   </UContainer>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+// Nuxt SEO
+useSeoMeta({
+  titleTemplate: "%s",
+  title: "heyitsjoealongi",
+  ogTitle: "heyitsjoealongi",
+  ogSiteName: "heyitsjoealongi",
+  description:
+    "Advising on resilience, engineering security, and shaping what’s next.",
+  ogDescription:
+    "Advising on resilience, engineering security, and shaping what’s next.",
+  ogUrl: "https://heyitsjoealongi.com/",
+  ogType: "website",
+  robots: "",
+  ogImage: "https://heyitsjoealongi.com/heyitsjoealongi-banner.png",
+});
+</script>
 
 <style></style>
