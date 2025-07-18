@@ -49,16 +49,6 @@
                 class="mb-3 md:mb-0 md:mr-6 hover:text-blue-300 transition-all"
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://blog.heyitsjoealongi.com/"
-              >
-                blog
-              </a>
-            </li>
-            <li class="flex items-center">
-              <a
-                class="mb-3 md:mb-0 md:mr-6 hover:text-blue-300 transition-all"
-                rel="noopener noreferrer"
-                target="_blank"
                 href="https://x.com/heyitsjoealongi/"
               >
                 x
