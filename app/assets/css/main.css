@@ -8,11 +8,7 @@ html {
   font-family: "Roboto", serif;
 }
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
   font-family: "Roboto Serif", serif;
 }
 ::selection {
@@ -24,14 +20,13 @@ h6 {
   width: 100vw;
 }
 .heyitsjoealongi-theme-blog h1 {
-  margin-top: 2.25rem;
-  margin-bottom: 2.25rem;
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-  -webkit-font-smoothing: auto;
-  -moz-osx-font-smoothing: auto;
+  font-size: 3rem;
+  line-height: 1;
   font-weight: 700;
   color: #2563eb;
+  text-align: left;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
 
   @media (min-width: 768px) {
     font-size: 3.75rem;
@@ -39,37 +34,43 @@ h6 {
   }
 }
 .heyitsjoealongi-theme-blog h2 {
-  margin-top: 2.25rem;
-  margin-bottom: 2.25rem;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  color: #fafafa;
+  text-align: left;
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
-  color: #fafafa;
 
-  @media (min-width: 768px) {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+  @media (min-width: 1024px) {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 .heyitsjoealongi-theme-blog h3,
 .heyitsjoealongi-theme-blog h4,
 .heyitsjoealongi-theme-blog h5,
 .heyitsjoealongi-theme-blog h6 {
-  margin-top: 2.25rem;
-  margin-bottom: 2.25rem;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-family: "Roboto", serif;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 300;
+  color: #2563eb;
+  text-align: left;
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
-  font-weight: 100;
-  color: #2563eb;
 
-  @media (min-width: 768px) {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+  @media (min-width: 1024px) {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 .heyitsjoealongi-theme-blog h2 > a {
@@ -83,16 +84,20 @@ h6 {
 .heyitsjoealongi-theme-blog p,
 .heyitsjoealongi-theme-blog > p,
 .heyitsjoealongi-theme-blog li {
-  margin-top: 0.9rem;
-  margin-bottom: 0.9rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-family: "Roboto", serif;
   font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 100;
+  color: #fafafa;
+  text-align: left;
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
-  font-weight: lighter;
-  color: #fafafa;
 
   @media (min-width: 768px) {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 .heyitsjoealongi-theme-blog p > strong {

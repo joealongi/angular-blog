@@ -1,12 +1,12 @@
 <template>
   <UContainer class="p-0 sm:p-0 md:p-0 lg:p-0 xl:p-0">
-    <div class="heyitsjoealongi-theme-container z-0 max-w-6xl m-9 xl:mx-auto">
+    <div
+      class="heyitsjoealongi-theme-container z-0 flex flex-col flex-auto justify-center items-center h-full w-auto max-w-6xl my-[3vh] mx-3 xl:mx-auto"
+    >
       <div
-        class="heyitsjoealongi-theme-column flex flex-col flex-auto min-w-0 mt-3 px-3 md:px-0"
+        class="heyitsjoealongi-theme-column flex flex-col flex-auto justify-self-start h-auto min-w-0 m-3 p-3"
       >
-        <nav
-          className="relative hidden invisible mb-0 md:block md:visible md:mb-[9vh]"
-        >
+        <nav className="relative my-[3vh] invisible md:visible hidden md:block">
           <ul
             className="flex flex-row items-center self-center mx-auto space-x-3"
           >
@@ -26,7 +26,7 @@
           </ul>
         </nav>
         <nav
-          className="z-30 relative block visible mb-[9vh] md:hidden md:invisible md:mb-0"
+          className="z-30 relative block md:hidden visible md:invisible my-[3vh] md:my-0"
         >
           <ul className="flex flex-row justify-center items-center self-center">
             <li className="flex flex-col flex-auto justify-self-start">
@@ -40,9 +40,9 @@
           </ul>
         </nav>
         <slot />
-        <section>
+        <footer>
           <ul
-            class="heyitsjoealongi-theme-social flex flex-col md:flex-row flex-auto my-3 text-base antialiased font-black text-left text-blue-600"
+            class="heyitsjoealongi-theme-social flex flex-col md:flex-row flex-auto my-3 font-black text-blue-600 text-left subpixel-antialiased"
           >
             <li class="flex items-center">
               <a
@@ -95,16 +95,12 @@
               </a>
             </li>
           </ul>
-        </section>
-        <footer
-          class="relative block mt-[9vh] text-xs subpixel-antialiased font-light text-left uppercase"
-        >
-          <p
-            className="heyitsjoealongi-theme-copyright my-3 text-xs subpixel-antialiased font-light text-left uppercase text-neutral-100"
-          >
-            © {{ year }} heyitsjoealongi. All rights reserved.
-          </p>
         </footer>
+        <p
+          className="heyitsjoealongi-theme-copyright flex flex-col md:flex-row flex-auto my-[3vh] text-xs font-light text-neutral-300 hover:text-neutral-100 text-left uppercase subpixel-antialiased transition-all"
+        >
+          © {{ year }} heyitsjoealongi. All rights reserved.
+        </p>
       </div>
     </div>
   </UContainer>
