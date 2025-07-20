@@ -6,7 +6,7 @@
       <div
         class="heyitsjoealongi-theme-column flex flex-col flex-auto justify-self-start h-auto min-w-0 m-3 p-3"
       >
-        <nav className="relative my-[3vh]">
+        <nav className="heyitsjoealongi-theme-navbar relative my-[3vh]">
           <ul
             className="flex flex-row justify-items-center content-center items-center space-x-3 mx-auto"
           >
@@ -25,7 +25,7 @@
             </li>
             <li class="flex justify-self-center">
               <a
-                className="text-xl text-neutral-300 hover:text-blue-600 text-center subpixel-antialiased transition-all cursor-pointer"
+                className="p-3 text-xl text-blue-600 hover:text-blue-300 text-center subpixel-antialiased transition-all cursor-pointer"
                 rel="noopener noreferrer"
                 target="_self"
                 href="/"
@@ -35,7 +35,7 @@
             </li>
             <li class="flex justify-self-center">
               <a
-                className="text-xl text-neutral-300 hover:text-blue-600 text-center subpixel-antialiased transition-all cursor-pointer"
+                className="p-3 text-xl text-blue-600 hover:text-blue-300 text-center subpixel-antialiased transition-all cursor-pointer"
                 rel="noopener noreferrer"
                 target="_self"
                 href="/blog"
