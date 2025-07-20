@@ -7,9 +7,14 @@
         heyitsjoealongi
       </h1>
       <p
-        className="heyitsjoealongi-theme-introduction my-3 text-xl md:text-3xl font-light text-blue-300 text-left subpixel-antialiased"
+        className="heyitsjoealongi-theme-introduction my-9 text-xl md:text-3xl font-light text-blue-300 text-left subpixel-antialiased"
       >
         Advising on resilience, engineering security, and shaping what’s next.
+      </p>
+
+      <p
+        className="avalinginc-theme-paragraph my-3 text-base md:text-xl font-light text-neutral-300 text-left subpixel-antialiased"
+      >
         Developing modern applications from code to cloud in JavaScript,
         TypeScript, Java, C#/.NET, Python, SQL, and NoSQL. Building cloud-native
         and on-prem systems with containers and machine learning. Streamlining
@@ -17,103 +22,6 @@
         development operation processes. Enhancing applications with modern code
         and intelligent systems—ready for today, built for tomorrow.
       </p>
-    </section>
-    <section class="my-3 md:my-9">
-      <h2
-        class="heyitsjoealongi-theme-heading-two my-3 lg:my-6 text-4xl lg:text-5xl font-bold text-blue-600 text-left subpixel-antialiased"
-      >
-        Articles on application development, cybersecurity, information
-        security, and chaos engineering
-      </h2>
-      <ul
-        class="heyitsjoealongi-theme-card flex flex-col flex-auto my-3 md:my-9 text-neutral-300 text-base subpixel-antialiased cursor-pointer"
-      >
-        <li class="flex items-center">
-          <a
-            class="h-auto w-full p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
-            rel="noopener noreferrer"
-            target="_self"
-            href="/blog/compendium-of-bitwise-nomenclature-from-applications-to-cybersecurity"
-          >
-            Compendium of bitwise nomenclature from applications to
-            cybersecurity
-          </a>
-        </li>
-        <li class="flex items-center">
-          <a
-            class="h-auto w-full p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
-            rel="noopener noreferrer"
-            target="_self"
-            href="/blog/computing-and-secure-work-habits-for-software-development"
-          >
-            Computing and secure work habits for software development
-          </a>
-        </li>
-        <li class="flex items-center">
-          <a
-            class="h-auto w-full p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
-            rel="noopener noreferrer"
-            target="_self"
-            href="/blog/stateful-react-javascript-form-fields-through-redux-data-persistence-and-management"
-          >
-            Stateful React JavaScript form fields through Redux data persistence
-            and management</a
-          >
-        </li>
-        <li class="flex items-center">
-          <a
-            class="h-auto w-full p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
-            rel="noopener noreferrer"
-            target="_self"
-            href="/blog/coding-habits-and-mac-local-environments-for-software-development"
-          >
-            Coding habits and Mac local environments for software development</a
-          >
-        </li>
-        <li class="flex items-center">
-          <a
-            class="h-auto w-full p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
-            rel="noopener noreferrer"
-            target="_self"
-            href="/blog/layered-cybersecurity-approaches-for-financial-technology-fintech"
-          >
-            Layered cybersecurity approaches for Financial Technology
-            (FinTech)</a
-          >
-        </li>
-        <li class="flex items-center">
-          <a
-            class="h-auto w-full p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
-            rel="noopener noreferrer"
-            target="_self"
-            href="/blog/threat-detection-approaches-for-financial-technology-fintech"
-          >
-            Threat detection approaches for Financial Technology (FinTech)</a
-          >
-        </li>
-        <li class="flex items-center">
-          <a
-            class="h-auto w-full p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
-            rel="noopener noreferrer"
-            target="_self"
-            href="/blog/secure-software-development-and-threat-modeling-approaches-for-financial-technology-fintech"
-          >
-            Secure software development and threat modeling approaches for
-            Financial Technology (FinTech)</a
-          >
-        </li>
-        <li class="flex items-center">
-          <a
-            class="h-auto w-full p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
-            rel="noopener noreferrer"
-            target="_self"
-            href="/blog/global-information-security-and-infrastructure-approaches-for-financial-technology-fintech"
-          >
-            Global information security and infrastructure approaches for
-            Financial Technology (FinTech)</a
-          >
-        </li>
-      </ul>
     </section>
   </UContainer>
 </template>
