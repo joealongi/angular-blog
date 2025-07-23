@@ -9,8 +9,8 @@
       <p
         className="heyitsjoealongi-theme-introduction my-9 text-xl md:text-3xl font-light text-blue-300 text-left subpixel-antialiased"
       >
-        Articles on application development, cybersecurity, information
-        security, and chaos engineering.
+        Application development, cybersecurity, information security, and chaos
+        engineering.
       </p>
       <ul
         class="heyitsjoealongi-theme-card flex flex-col flex-auto my-3 md:my-9 text-neutral-300 text-base subpixel-antialiased cursor-pointer"
@@ -105,6 +105,22 @@
   </UContainer>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+// Nuxt SEO
+useSeoMeta({
+  titleTemplate: "%s",
+  title: "heyitsjoealongi - blog",
+  ogTitle: "heyitsjoealongi - blog",
+  ogSiteName: "heyitsjoealongi - blog",
+  description:
+    "Articles on application development, cybersecurity, information security, and chaos engineering.",
+  ogDescription:
+    "Articles on application development, cybersecurity, information security, and chaos engineering.",
+  ogUrl: "https://heyitsjoealongi.com/",
+  ogType: "website",
+  robots: "",
+  ogImage: "https://heyitsjoealongi.com/heyitsjoealongi-banner.png",
+});
+</script>
 
 <style></style>

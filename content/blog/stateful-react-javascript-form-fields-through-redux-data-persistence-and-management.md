@@ -99,22 +99,22 @@ export function Scoreboard() {
           <button
           aria-label="Increment home"
           onClick={() => dispatch(incrementHome())} >
-          Increment Home
+            Increment Home
           </button>
           <button
           aria-label="Decrement away"
           onClick={() => dispatch(decrementHome())} >
-          Decrement Home
+            Decrement Home
           </button>
           <button
           aria-label="Decrement away"
           onClick={() => dispatch(incrementAway())} >
-          Increment Away
+            Increment Away
           </button>
           <button
           aria-label="Decrement away"
           onClick={() => dispatch(decrementAway())} >
-          Decrement Away
+            Decrement Away
           </button>
         </div>
     </div>

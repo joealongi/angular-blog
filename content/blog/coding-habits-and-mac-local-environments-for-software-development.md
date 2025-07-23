@@ -128,13 +128,13 @@ Installing [Homebrew](https://brew.sh/) will allow for direct terminal based i
 
 Read more: https://formulae.brew.sh/formula/
 
-```
+```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 When installing Homebrew, in certain platforms, it will also install Xcode Command Line Tools. Once installed, make sure to set the Homebrew directory as the bash environment so that the terminal can access the programs installed via Homebrew.
 
-```
+```bash
 echo >> /Users/<YOUR_USER>/.zprofile
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/<YOUR_USER>/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
@@ -160,7 +160,7 @@ Installing [Rosetta](https://support.apple.com/en-us/102527/), enables architec
 
 Read more: https://developer.apple.com/documentation/apple-silicon/about-the-rosetta-translation-environment/
 
-```
+```bash
 softwareupdate --install-rosetta
 ```
 
@@ -172,7 +172,7 @@ Through [Node Version Manager (NVM)](https://github.com/nvm-sh/nvm/), you can i
 
 Read more: https://github.com/nvm-sh/nvm/?tab=readme-ov-file#installing-and-updating/
 
-```
+```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 ```
 
@@ -188,7 +188,7 @@ Rust is a typed programming language that has a focus on type safety and has rec
 
 Read more: https://www.rust-lang.org/learn/
 
-```
+```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 

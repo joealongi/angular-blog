@@ -37,7 +37,7 @@ const url = page?.value?.path
 // Nuxt SEO
 useSeoMeta({
   titleTemplate: "%s",
-  title: "heyitsjoealongi - " + title?.toString(),
+  title: "heyitsjoealongi - blog - " + title?.toString(),
   ogTitle: title?.toString(),
   ogSiteName: "heyitsjoealongi",
   description: description?.toString(),
