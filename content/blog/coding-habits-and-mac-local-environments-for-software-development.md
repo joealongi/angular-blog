@@ -232,7 +232,7 @@ Whenever you are browsing a website, a series of applications, software, and too
 
 Read more: https://www.wappalyzer.com/lookup/
 
-#### Step 22 — Communication and community
+#### Step 23 — Communication and community
 
 Open Brave browser, then search for 'Discord chat'. The slogan "[Group Chat That's All Fun & Games](https://discord.com/)" and search result should appear. Download and install the software to get your terminal started.
 
@@ -240,13 +240,13 @@ Read more: https://discord.com/download/
 
 Discord is a VoIP chat software that has grown from an application to a community scale tool. You can create unique destinations across the internet for your users, allow them to chat, guide them through onboarding, and offer products.
 
-#### Step 23 — Test out beta applications
+#### Step 24 — Test out beta applications
 
 A great tool for accessing pre-production applications built for Mac is through [TestFlight](https://testflight.apple.com/), which you can download and install through the App store. TestFlight provides a service that [enables you to download and install pre-release versions](https://developer.apple.com/testflight/) of applications.
 
 Read more: https://apps.apple.com/us/app/testflight/id899247664/
 
-#### Step 24 — A short list
+#### Step 25 — A short list
 
 There are some other tools you can use and install to enable your development environment, some of them may occur earlier or later in your flow, but here is a list of topics to know.
 
