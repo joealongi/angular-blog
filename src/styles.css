@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+body,
+html {
+  color: #2563eb;
+  background-color: #0a0a0a;
+  font-family: "Roboto", serif;
+}
+h1,
+h2 {
+  font-family: "Roboto Serif", serif;
+}
+::selection {
+  background: #2563eb;
+}
