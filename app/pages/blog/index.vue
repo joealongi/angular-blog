@@ -17,7 +17,7 @@
       >
         <li class="flex items-center">
           <a
-            class="h-auto w-full p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
+            class="h-auto w-full py-3 md:p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
             rel="noopener noreferrer"
             target="_self"
             href="/blog/compendium-of-bitwise-nomenclature-from-applications-to-cybersecurity"
@@ -28,7 +28,7 @@
         </li>
         <li class="flex items-center">
           <a
-            class="h-auto w-full p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
+            class="h-auto w-full py-3 md:p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
             rel="noopener noreferrer"
             target="_self"
             href="/blog/computing-and-secure-work-habits-for-software-development"
@@ -38,7 +38,7 @@
         </li>
         <li class="flex items-center">
           <a
-            class="h-auto w-full p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
+            class="h-auto w-full py-3 md:p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
             rel="noopener noreferrer"
             target="_self"
             href="/blog/stateful-react-javascript-form-fields-through-redux-data-persistence-and-management"
@@ -49,7 +49,7 @@
         </li>
         <li class="flex items-center">
           <a
-            class="h-auto w-full p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
+            class="h-auto w-full py-3 md:p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
             rel="noopener noreferrer"
             target="_self"
             href="/blog/coding-habits-and-mac-local-environments-for-software-development"
@@ -59,7 +59,7 @@
         </li>
         <li class="flex items-center">
           <a
-            class="h-auto w-full p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
+            class="h-auto w-full py-3 md:p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
             rel="noopener noreferrer"
             target="_self"
             href="/blog/layered-cybersecurity-approaches-for-financial-technology-fintech"
@@ -70,7 +70,7 @@
         </li>
         <li class="flex items-center">
           <a
-            class="h-auto w-full p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
+            class="h-auto w-full py-3 md:p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
             rel="noopener noreferrer"
             target="_self"
             href="/blog/threat-detection-approaches-for-financial-technology-fintech"
@@ -80,7 +80,7 @@
         </li>
         <li class="flex items-center">
           <a
-            class="h-auto w-full p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
+            class="h-auto w-full py-3 md:p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
             rel="noopener noreferrer"
             target="_self"
             href="/blog/secure-software-development-and-threat-modeling-approaches-for-financial-technology-fintech"
@@ -91,7 +91,7 @@
         </li>
         <li class="flex items-center">
           <a
-            class="h-auto w-full p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
+            class="h-auto w-full py-3 md:p-3 text-base md:text-xl text-blue-300 hover:text-neutral-950 bg-transparent hover:bg-blue-300 border-b-1 border-blue-300 hover:border-blue-300 transition-all"
             rel="noopener noreferrer"
             target="_self"
             href="/blog/global-information-security-and-infrastructure-approaches-for-financial-technology-fintech"
