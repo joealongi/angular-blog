@@ -18,6 +18,14 @@ node_modules
 *.tsbuildinfo
 next-env.d.ts
 
+### IDE ###
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
 ### Testing ###
 /coverage
 
@@ -48,8 +56,10 @@ logs
 *.log
 
 ### Debug ###
+npm-debug.log
 npm-debug.log*
 yarn-debug.log*
+yarn-error.log
 yarn-error.log*
 .pnpm-debug.log*
 
@@ -65,6 +75,21 @@ yarn-error.log*
 
 ### Server Env Files ###
 /nodemon.json
+
+### Angular ###
+/dist
+/tmp
+/out-tsc
+/bazel-out
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+.DS_Store
+Thumbs.db
 
 ### Next.js ###
 .next
@@ -122,6 +147,7 @@ bin/
 
 ### IntelliJ IDEA ###
 .idea
+.idea/
 *.iws
 *.iml
 *.ipr
@@ -140,6 +166,12 @@ out/
 .vscode/
 .vscode
 */.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
 
 ### Python ###
 venv/
