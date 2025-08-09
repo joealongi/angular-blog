@@ -14,3 +14,123 @@ h2 {
 ::selection {
   background: #2563eb;
 }
+
+/* blog */
+.blog img {
+  width: 100vw;
+}
+.blog h1 {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 700;
+  color: #2563eb;
+  text-align: left;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+
+  @media (min-width: 768px) {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+.blog h2 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  color: #fafafa;
+  text-align: left;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+
+  @media (min-width: 1024px) {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+.blog h3,
+.blog h4,
+.blog h5,
+.blog h6 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-family: "Roboto", serif;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 300;
+  color: #2563eb;
+  text-align: left;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+
+  @media (min-width: 1024px) {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+.blog h2 > a {
+  color: #93c5fd;
+}
+.blog p > strong {
+  font-weight: 900;
+}
+.blog p {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-family: "Roboto", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 100;
+  color: #fafafa;
+  text-align: left;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+
+  @media (min-width: 768px) {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+.blog a {
+  color: #2563eb;
+}
+.blog a:hover {
+  color: #93c5fd;
+}
+.blog ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+}
+.blog li {
+  font-family: "Roboto", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 100;
+  color: #fafafa;
+  text-align: left;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+
+  @media (min-width: 768px) {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+.blog code {
+  height: auto;
+  width: 100%;
+  display: inline-block;
+  padding: 1rem;
+  color: #93c5fd;
+  background-color: #171717;
+  white-space: wrap;
+
+  @media (min-width: 768px) {
+    padding: 1.9rem;
+  }
+}
