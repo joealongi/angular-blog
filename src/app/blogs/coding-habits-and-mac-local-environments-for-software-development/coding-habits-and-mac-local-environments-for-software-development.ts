@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-two',
+  selector:
+    'app-coding-habits-and-mac-local-environments-for-software-development',
   imports: [],
   templateUrl:
     './coding-habits-and-mac-local-environments-for-software-development.html',
